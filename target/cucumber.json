@@ -1,0 +1,86 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2020-11-19T08:09:16.707Z",
+        "line": 33,
+        "name": "Check if the user is able to login with valid_user credentials",
+        "description": "",
+        "id": "login-data-creation;check-if-the-user-is-able-to-login-with-valid-user-credentials",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 3000000,
+              "status": "passed"
+            },
+            "line": 34,
+            "name": "I have opened the browser",
+            "match": {
+              "location": "stepDefinitions.login.i_have_opened_the_browser()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 35,
+            "name": "User is on the stage site with login screen",
+            "match": {
+              "location": "stepDefinitions.login.user_is_on_the_stage_site_with_login_screen()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 36,
+            "name": "User enters correct credentials with data in excel at \"/Users/addweb/IdeaProjects/Cucumber_Setup/Features/ExcelData.feature\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"/Users/addweb/IdeaProjects/Cucumber_Setup/Features/ExcelData.feature\"",
+                  "offset": 54
+                }
+              ],
+              "location": "stepDefinitions.login.user_enters_correct_credentials_with_data_in_excel_at(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 37,
+            "name": "I am doing a click on the login button",
+            "match": {
+              "location": "stepDefinitions.login.i_am_doing_a_click_on_the_login_button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 38,
+            "name": "Close the browser",
+            "match": {
+              "location": "stepDefinitions.login.close_the_browser()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Login data creation",
+    "description": "",
+    "id": "login-data-creation",
+    "keyword": "Feature",
+    "uri": "file:Features/Login.feature",
+    "tags": []
+  }
+]
